@@ -154,6 +154,7 @@ header a:hover {
     color: rgb(255, 255, 255);
     transition-duration: 3s;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 90px;
 }
 
 #flex {
