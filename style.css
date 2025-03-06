@@ -353,6 +353,87 @@ footer {
 
     font-size: 20px;
 
+}@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header {
+        padding-top: 20px;
+        min-height: auto;
+    }
+
+    header #branding,
+    header nav,
+    header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header #branding h1 {
+        margin-bottom: 20px;
+    }
+
+    header nav {
+        margin-top: 20px;
+    }
+
+    header li {
+        padding: 10px;
+    }
+
+    #showcase {
+        min-height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .container1,
+    .container2,
+    .container3,
+    .container4 {
+        grid-column: 1 / -1;
+        grid-row: auto;
+    }
+
+    #flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #registration {
+        width: 100%;
+    }
+
+    .faqs,
+    .contact {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #showcase h1 {
+        font-size: 40px;
+    }
+
+    #showcase p {
+        font-size: 16px;
+    }
+
+    .event-info {
+        padding: 5px;
+    }
+
+    .contact-info,
+    .social-links {
+        font-size: 14px;
+    }
 }
 
 .social-links a:hover {
